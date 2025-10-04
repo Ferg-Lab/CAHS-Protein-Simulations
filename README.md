@@ -4,7 +4,9 @@ This repository contains molecular dynamics (MD) simulation setups, scripts, and
 The following packages were used for running simulations and analyzing trajectories.
 
 `GROMACS 2022.4/2022.5
+
 MDAnalysis 2.7.0
+
 ChimeraX 1.9
 `
 
