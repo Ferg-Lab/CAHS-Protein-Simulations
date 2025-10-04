@@ -1,6 +1,13 @@
 # CAHS-Protein-Simulations
 This repository contains molecular dynamics (MD) simulation setups, scripts, and analyses to investigate the assembly behavior of the CAHS12 protein and its interactions with a POPC lipid membrane using the Martini 3 coarse-grained force field. The simulations were designed to elucidate the mechanisms by which the CAHS12 protein protects lipid vesicles under dessication conditions. <br />
 
+The following packages were used for running simulations and analyzing trajectories.
+
+`GROMACS 2022.4/2022.5
+MDAnalysis 2.7.0
+ChimeraX 1.9
+`
+
 ## CAHS-dimer
 This folder contains the .mdp, .gro and .itp files for the five independent simulations of two CAHS12 proteins. The ie.mdp was used to rerun the trajectoeis and extract the short-range interaction energy between the proteins. The notebook pca.ipynb contains the codes for generating the PCA plots.  <br />
 
@@ -14,6 +21,6 @@ This folder contains the .mdp, .gro and .itp files for running simulations to mi
 
 If you use this work please cite: <br />
 
-<pre> TBD
+<pre> TBA
 
 
