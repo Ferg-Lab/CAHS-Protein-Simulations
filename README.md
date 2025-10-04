@@ -3,9 +3,11 @@ This repository contains molecular dynamics (MD) simulation setups, scripts, and
 
 The following packages were used for running simulations and analyzing trajectories. The notebooks in each folder are used to analyze data and plot figures used in the paper.
 
-`GROMACS 2022.4/2022.5`
-`MDAnalysis 2.7.0`
-`ChimeraX 1.9`
+`GROMACS 2022.4/2022.5`[GROMACS 2022 install guide](https://manual.gromacs.org/2022.4/install-guide/index.html)
+
+`MDAnalysis 2.7.0`[Version installation page](https://www.mdanalysis.org/2024/01/04/release-2.7.0/)
+
+`ChimeraX 1.9`[Download page](https://www.rbvi.ucsf.edu/chimerax/download.html)
 
 ## CAHS-dimer
 This folder contains the .mdp, .gro and .itp files for the five independent simulations of two CAHS12 proteins. The ie.mdp was used to rerun the trajectoeis and extract the short-range interaction energy between the proteins. The notebook pca.ipynb contains the codes for generating the PCA plots.  <br />
